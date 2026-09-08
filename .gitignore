@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+*.log
+.vite/
+src-tauri/target/
+src-tauri/gen/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+release/
+tmp/
+
+# Local data and credentials must stay outside repository history.
+*.db
+*.pem
+*.key
+auth.json
+credentials.json
+.env
+.env.*
